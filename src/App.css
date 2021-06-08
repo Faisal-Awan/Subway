@@ -1,0 +1,441 @@
+.App {
+  /* text-align: center; */
+  color: none;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Header start here */
+
+.pic{
+  background-image: url('./Component/pics/main.jpg');
+  min-height: 100%;
+  min-width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* margin-top: 40px; */
+  /* background-color: #569673; */
+}
+
+.header{
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  text-align: center;
+  
+  /* background-color: #009743; */
+}
+
+.header2{
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  background-color:#a9d134;
+  color: black ;  
+}
+
+.loaction{
+  width: 45%;
+  margin-top: 30px;
+  text-align: end;
+  margin-right: 10px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.subWay img{
+  border-radius: 5px;
+  background-color: none;
+}
+
+.subWay{
+  width: 6%;
+  border-radius: 5px;
+  background-color: none;
+}
+
+.register{
+  width: 10%;
+  margin-left: 10px;
+  margin-top: 30px;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+
+.main2{
+  width: 39%;
+  cursor: pointer;
+  
+}
+
+.main{
+  width: 13%;
+  display: flex;
+  height: 35px;
+  margin-top: 25px;
+  float:right;
+  /* margin-left: 300px; */
+  margin-right: 220px;
+  border-radius: 50px;
+  background-color: #FFCB0A;
+  display: flex;
+}
+
+.quantity{
+  border-radius: 50px;
+  width: 20%;
+  height: 20px;
+  background-color:#009743;
+  margin-left: 7px;
+  margin-top: 7px;
+  color: white;
+  text-align: center;
+}
+
+.quantity p{
+  margin-top: -2px;
+}
+
+.cart{
+  width: 45%;
+  height: 32px;
+}
+.cart img{
+  margin-left: 1px;
+  margin-top: 2px;
+}
+
+.arow{
+  margin-left: 3px;
+  margin-top: 3.5px;
+  width: 15%;
+  height: 15px;
+}
+
+/* .upHeader{
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  background-color: aqua;
+  transition: all 0.3s ease-in;
+  top: 0%;
+  width: 100%;
+    z-index: 999;
+} */
+
+.slider_image{
+  /* margin: 0px auto; */
+  margin-top: 300px;
+  margin-left: 25%;
+  margin-bottom: 180px;
+}
+
+
+
+.product{
+  width: 100%;
+  height: 50px;
+  background-color: #009743;
+  position: sticky;
+  top: 0;
+}
+
+.list{
+  float: left;
+  display: flex;
+  list-style-type: none;
+  color: white;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+li{
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+li:hover{
+  color: #FFCB0A;
+  text-decoration: underline #FFCB0A;
+}
+li.active{
+  color: #ffcb0a;
+}
+
+.fProduct{
+  margin-left: 200px;
+}
+
+/* .slider{
+  background-color: cornflowerblue;
+  width: 60%;
+  margin-left: 20%;
+  height: 380px;
+  margin-top: 200px;
+} */
+
+.check{
+  background-color: cornflowerblue;
+  height:1500px;
+  
+}
+
+.searchBar{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  margin-top: 10px;
+}
+
+.searchIcon img{
+  margin-left: 238px;
+  height: 25px;
+  margin-top: 0px;
+  color: #009743;
+  background-color: #009743;
+}
+
+.searchText{
+  width: 63%;
+}
+
+.searchText input{
+  width: 100%;
+  height: 30px;
+  border: none;
+  outline: none;
+  margin-left: 8px;
+}
+
+.searchText hr{
+  margin-top: 5px;
+  width: 100%;
+}
+
+searchBar:hover{
+  text-decoration: underline green;
+   
+}
+
+
+.inchD{
+  display: flex; 
+   
+}
+
+.imagDiv img{
+  width: 200px;
+  height: 200px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.comD{
+  width: 360px;
+  height: 210px;
+  background-color: rgb(240, 245, 245);
+}
+.price{
+  margin-top: 65px;
+  width: 70px;
+  height: 23px;
+  background-color: #009743;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  text-align: center;
+  
+}
+
+
+.text1{
+  margin-top: 8px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+.forFlex{
+  display: flex;
+}
+
+.forM{
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.forM1{
+  margin-left: -20px;
+  margin-top: 20px;
+}
+
+.postionSticky{
+  position: sticky;
+  top: 80px;
+  background-color: #a9d134;
+
+}
+
+/* Foter data start here */
+
+.foter{
+  background-color: #24282B;
+  width: 100%;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.foterImg img{
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border: 1px solid #24282B;
+  border-radius: 5px;
+}
+
+.linkn{
+  text-align: center;
+  color: #adb5bd;
+}
+
+/* .AryData{
+  width: 360px;
+  height: 210px;
+  background-color: rgb(240, 245, 245);
+  
+} */
+
+#card1{
+  /* width: 200px; */
+  margin-left: 5px;
+  margin-top: 20px;
+  width: 365px;
+  height: 200px;
+  background-color: rgb(240, 245, 245);
+  position:static;
+  /* display: flex; */
+
+}
+
+.setD{
+  /* text-align:unset; */
+  margin-top: -200px;
+  
+}
+
+.setD2{
+  /* margin-right: 55px; */
+  margin-left: 205px;
+  margin-top: 10px;
+  
+}
+
+.setD3{
+  margin-left: 205px;
+  text-align: left;
+  margin-top: 60px;
+}
+
+.priceA{
+  display: inline-block;
+  color: #fff;
+  background-color: #009743;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  
+}
+
+/* .card img{
+  width: 200px;
+  height: 190px;
+} */
+
+.HeadingSet{
+  width: 240%;
+  height: 40px;
+  background-color: rgb(212, 182, 182);
+  /* text-align:left; */
+  margin-top: 10px;
+}
+/* hr {
+  width:240%;
+} */
+
+.tooltip{
+  /* margin-left: 500px; */
+  background-color: #352f18;
+  color: #fff;
+}
+
+.HeadingSet{
+  padding: 5px;
+  margin-left: 5px;
+}
+
+@media only screen and (min-width: 200px) {
+  /* For desktop: */
+  .navbar navbar-expand-lg navbar-dark {width: 8.33%;}
+  .navbar navbar-expand-lg navbar-dark {width: 5%;}
+
+  .navbar navbar-expand-lg navbar-dark {width: 16.66%;}
+  .navbar navbar-expand-lg navbar-dark {width: 25%;}
+
+}
+
+.modal-content {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: .3rem;
+  outline: 0;
+  margin-top: 120px;
+}
+
+/* .sticky{
+  position: sticky;
+  top: 0%;
+} */
+
+/* .ModalPic{
+  text-align: center;
+  
+
+} */

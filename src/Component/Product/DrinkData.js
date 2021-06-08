@@ -1,0 +1,51 @@
+ export let Drink=[
+    {
+        id:1,
+        name1:"Nestle Juice",
+        name2:".",
+        price:"Rs.65.00",
+        image:'../pic/chouto.jpg',
+    },
+    {
+        id:2,
+        name1:"Water",
+        name2:".",
+        price:"Rs.80.00",
+        image:'../pic/chouto.jpg',
+    },
+    {
+        id:3,
+        name1:"Slim Can",
+        name2:"(250ml)",
+        price:"Rs.110.00",
+        image:'../pic/chouto.jpg',
+    },
+    {
+        id:4,
+        name1:"Pet 500 Ml",
+        name2:"Drink",
+        price:"Rs.80.00",
+        image:'../pic/chouto.jpg',
+    },
+    {
+        id:5,
+        name1:"Minute ",
+        name2:"Maid",
+        price:"Rs.80.00",
+        image:'../pic/chouto.jpg',
+    },
+    {
+        id:6,
+        name1:"Cardemom",
+        name2:"Tea..",
+        price:"Rs.80.00",
+        image:'../pic/chouto.jpg',
+    },
+    {
+        id:7,
+        name1:"DCoffee/Cappaci",
+        name2:"no",
+        price:"Rs.120.00",
+        image:'../pic/coffe.jpg',
+    },
+ ]
